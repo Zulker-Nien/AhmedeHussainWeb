@@ -1,0 +1,75 @@
+.JournalismContainer {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  // margin-top: 5px;
+  .JournalismLeft {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    // background-color: turquoise;
+    .ImageContainer {
+      height: 60%;
+      background-image: url("./Journalism.jpeg");
+      width: 80%;
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      border-radius: 10px;
+      // background-color: violet;
+    }
+  }
+  .JournalismRight {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // background-color: blue;
+    .TextContainer {
+      height: 60%;
+      width: 80%;
+      text-align: justify;
+      // background-color: yellow;
+      h2 {
+        margin: 0;
+        color: #861d03;
+      }
+      p {
+        height: 60%;
+        width: 100%;
+        overflow: auto;
+      }
+    }
+  }
+}
+.Journalism {
+  // background-color: yellow;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .ReadMoreButton {
+    height: 100%;
+    width: 90%;
+    // float: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #fff;
+    // background-color: #1d1d1d;
+    h3 {
+      width: 10%;
+      height: 5vh;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      border-radius: 10px;
+      background-color: #861d03;
+    }
+  }
+}

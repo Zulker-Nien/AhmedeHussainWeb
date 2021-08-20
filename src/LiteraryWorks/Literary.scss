@@ -1,0 +1,47 @@
+.LiteraryContainer{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    // margin-top: 5px;
+    .LiteraryLeft{
+        width: 40%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        // background-color: turquoise;
+        .ImageContainer{
+            height: 60%;
+            background-image: url("./Literary.jpeg");
+            width: 80%;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            border-radius: 10px;
+            // background-color: violet;
+        }
+    }
+    .LiteraryRight{
+        width: 60%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // background-color: blue;
+        .TextContainer{
+            height: 60%;
+            width: 80%;
+            text-align: justify;
+            // background-color: yellow;
+            h2{
+                margin: 0;
+                color: #861d03;
+            }
+            p{
+                height: 80%;
+                width: 100%;
+                overflow: auto;
+
+            }
+        }
+    }
+}
